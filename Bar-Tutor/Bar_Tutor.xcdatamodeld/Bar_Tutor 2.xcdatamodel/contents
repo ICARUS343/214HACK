@@ -2,11 +2,10 @@
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
         <attribute name="image" optional="YES" attributeType="String" defaultValueString=""/>
-        <attribute name="ing" optional="YES" attributeType="String" defaultValueString=""/>
         <attribute name="name" optional="YES" attributeType="String" defaultValueString=""/>
         <attribute name="prep" optional="YES" attributeType="String" defaultValueString=""/>
     </entity>
     <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="88"/>
     </elements>
 </model>

@@ -7,25 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0A1613254B945E00CE4149 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0A1612254B945E00CE4149 /* DetailVC.swift */; };
 		0F678593254B47930092F3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F678592254B47930092F3FF /* AppDelegate.swift */; };
 		0F678595254B47930092F3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F678594254B47930092F3FF /* SceneDelegate.swift */; };
-		0F678597254B47930092F3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F678596254B47930092F3FF /* ViewController.swift */; };
 		0F67859A254B47930092F3FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F678598254B47930092F3FF /* Main.storyboard */; };
 		0F67859D254B47930092F3FF /* Bar_Tutor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F67859B254B47930092F3FF /* Bar_Tutor.xcdatamodeld */; };
 		0F67859F254B479A0092F3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F67859E254B479A0092F3FF /* Assets.xcassets */; };
 		0F6785A2254B479A0092F3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6785A0254B479A0092F3FF /* LaunchScreen.storyboard */; };
+		0F6785AE254B48910092F3FF /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6785AD254B48910092F3FF /* TVC.swift */; };
+		0F6785B0254B4A080092F3FF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6785AF254B4A080092F3FF /* SwiftyJSON.swift */; };
+		0F6785B2254B4A140092F3FF /* cocktail.json in Resources */ = {isa = PBXBuildFile; fileRef = 0F6785B1254B4A130092F3FF /* cocktail.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0A1611254B8CEA00CE4149 /* Bar_Tutor 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Bar_Tutor 2.xcdatamodel"; sourceTree = "<group>"; };
+		0F0A1612254B945E00CE4149 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		0F67858F254B47930092F3FF /* Bar-Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar-Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F678592254B47930092F3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F678594254B47930092F3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F678596254B47930092F3FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F678599254B47930092F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F67859C254B47930092F3FF /* Bar_Tutor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bar_Tutor.xcdatamodel; sourceTree = "<group>"; };
 		0F67859E254B479A0092F3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F6785A1254B479A0092F3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F6785A3254B479A0092F3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6785AD254B48910092F3FF /* TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		0F6785AF254B4A080092F3FF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0F6785B1254B4A130092F3FF /* cocktail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cocktail.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +65,43 @@
 		0F678591254B47930092F3FF /* Bar-Tutor */ = {
 			isa = PBXGroup;
 			children = (
+				0F6785AC254B480E0092F3FF /* control */,
+				0F6785AB254B48070092F3FF /* view */,
+				0F6785AA254B47F00092F3FF /* model */,
 				0F678592254B47930092F3FF /* AppDelegate.swift */,
 				0F678594254B47930092F3FF /* SceneDelegate.swift */,
-				0F678596254B47930092F3FF /* ViewController.swift */,
 				0F678598254B47930092F3FF /* Main.storyboard */,
 				0F67859E254B479A0092F3FF /* Assets.xcassets */,
 				0F6785A0254B479A0092F3FF /* LaunchScreen.storyboard */,
 				0F6785A3254B479A0092F3FF /* Info.plist */,
 				0F67859B254B47930092F3FF /* Bar_Tutor.xcdatamodeld */,
+				0F6785AF254B4A080092F3FF /* SwiftyJSON.swift */,
+				0F6785B1254B4A130092F3FF /* cocktail.json */,
 			);
 			path = "Bar-Tutor";
+			sourceTree = "<group>";
+		};
+		0F6785AA254B47F00092F3FF /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0F6785AB254B48070092F3FF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0F6785AD254B48910092F3FF /* TVC.swift */,
+				0F0A1612254B945E00CE4149 /* DetailVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0F6785AC254B480E0092F3FF /* control */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +165,7 @@
 				0F6785A2254B479A0092F3FF /* LaunchScreen.storyboard in Resources */,
 				0F67859F254B479A0092F3FF /* Assets.xcassets in Resources */,
 				0F67859A254B47930092F3FF /* Main.storyboard in Resources */,
+				0F6785B2254B4A140092F3FF /* cocktail.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F67859D254B47930092F3FF /* Bar_Tutor.xcdatamodeld in Sources */,
-				0F678597254B47930092F3FF /* ViewController.swift in Sources */,
+				0F6785AE254B48910092F3FF /* TVC.swift in Sources */,
 				0F678593254B47930092F3FF /* AppDelegate.swift in Sources */,
+				0F6785B0254B4A080092F3FF /* SwiftyJSON.swift in Sources */,
 				0F678595254B47930092F3FF /* SceneDelegate.swift in Sources */,
+				0F0A1613254B945E00CE4149 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +382,10 @@
 		0F67859B254B47930092F3FF /* Bar_Tutor.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				0F0A1611254B8CEA00CE4149 /* Bar_Tutor 2.xcdatamodel */,
 				0F67859C254B47930092F3FF /* Bar_Tutor.xcdatamodel */,
 			);
-			currentVersion = 0F67859C254B47930092F3FF /* Bar_Tutor.xcdatamodel */;
+			currentVersion = 0F0A1611254B8CEA00CE4149 /* Bar_Tutor 2.xcdatamodel */;
 			path = Bar_Tutor.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
